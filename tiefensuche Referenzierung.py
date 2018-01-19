@@ -31,7 +31,7 @@ E.nachbarn = [C]
 
 bereitsbesucht = set()
 def tiefensuche(startknoten, ziel):
-    """Für eine Beschreibung der Tiefensuche: Siehe "tiefensuche dictionary.py""""
+    """Für eine Beschreibung der Tiefensuche: Siehe "tiefensuche dictionary.py" """
     print(startknoten.name)
     
     if startknoten.zahl == ziel:
